@@ -1,4 +1,8 @@
-True and True  = True - Correct
+# Exercise 28 : Boolean Practice
+
+print "================= Begin Exercise 28 : Boolean Practice =============="
+
+   True and True  = True
    False and True = False
     1 == 1 and 2 == 1 = False
     "test" == "test" = True
@@ -14,11 +18,12 @@ True and True  = True - Correct
     not (1 == 1 and 0 != 1) = False
     not (10 == 1 or 1000 == 1000) = False
     not (1 != 10 or 3 == 4) = False
-
     not ("testing" == "testing" and "Zed" == "Cool Guy") = True
     1 == 1 and (not ("testing" == 1 or 1 == 0))= True
-    "chunky" == "bacon" and (not (3 == 4 or 3 == 3)) = True --- Wrong False
+    "chunky" == "bacon" and (not (3 == 4 or 3 == 3)) = True
     3 == 3 and (not ("testing" == "testing" or "Python" == "Fun")) = False
+'''
+print "================= End Exercise 28 : Boolean Practice =============="
 
 #Test Result 
 ''' 
